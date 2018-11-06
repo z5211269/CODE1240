@@ -1,0 +1,167 @@
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<font size="200">MIXER</font></section>
+				<section>
+					<h2>Site</h2>
+					<img src="image/site.png" alt="19" width="60%" >
+				</section>
+				<section>
+					<h2>Concept</h2>
+					<img src="https://cdn.shopify.com/s/files/1/1057/4964/products/kill-bill-volume-1-vintage-movie-poster-original-french-mini-16x23-7662.jpg?v=1535849861" alt="kb" width= "40%" align="left">
+					<img src="https://www.fashion-press.net/img/news/40339/I34.jpg" alt="op" width= "50%" align="right">
+				</section>
+				<section><h2>Concept drawing</h2>
+
+				<img src="image/Concept.jpg" alt="con" width="50%" align="left">
+				<img src="image/gable and hip roof.jpg" alt="con" width="35%" align="right">
+				<img src="image/kill bill.jpg" alt="con" width="35%" align="right">
+				</section>
+				<section>
+					<font size="100">Design</font>
+					<div style="max-width:1000px"  class="w3-content w3-section">
+					  <img class="mySlides" src="image/TERRAIN.jpg" alt="11" width="100%" >
+					  <img class="mySlides" src="image/REALISTIC.jpg" alt="12" width="100%" >
+					  <img class="mySlides" src="image/ENTRANCE1.jpg" alt="13" width="100%" >
+					  <img class="mySlides" src="image/4 lobby.jpg" alt="14" width="100%" >
+					  <img class="mySlides" src="image/THEATRE.jpg" alt="15" width="100%" >
+					  <img class="mySlides" src="image/cinema.jpg" alt="16" width="100%" >
+					  <img class="mySlides" src="image/E STAIR.jpg" alt="16" width="100%" >
+					  <img class="mySlides" src="image/entrance 2.jpg" alt="17" width="100%" >
+					  <img class="mySlides" src="image/living wave.jpg" alt="18" width="100%" >
+					  <img class="mySlides" src="image/stair.png" alt="19" width="100%" >
+					  <img class="mySlides" src="image/master room wave.jpg" alt="20" width="100%" >
+					  <img class="mySlides" src="image/private wave.jpg" alt="21" width="100%" >
+					  <img class="mySlides" src="image/EXTERNAL.jpg" alt="22" width="100%" >
+					</div>
+
+					<script>
+					var myIndex = 0;
+					carousel();
+
+					function carousel() {
+					    var i;
+					    var x = document.getElementsByClassName("mySlides");
+					    for (i = 0; i <= x.length; i++) {
+					       x[i].style.display = "none";  
+					    }
+					    myIndex++;
+					    if (myIndex > x.length) {myIndex = 1}    
+					    x[myIndex-1].style.display = "block";  
+					    setTimeout(carousel, 2000); // Change image every 2 seconds
+					}
+					</script>
+				</section>
+				<section>
+				<img src="image/stair.png" alt="19" width="100%" >
+				
+				</section>
+				<section>
+					<font size="100">Plan & Section</font><br>
+<!-- 					<div style="max-width:700px">
+					  <img class="mySlides" src="image/11.png" alt="11" width="45%"  transform: rotate(20deg);>
+					  <img class="mySlides" src="image/12.png" alt="12" width="45%" >
+					</div> -->
+
+
+
+					<div class="w3-content w3-display-container">
+						  <img class="mySlides1" src="image/11.png" alt="12" style="display: block; margin-left: auto; margin-right: auto; width: 60%; height: 80%" >
+						  <img class="mySlides1" src="image/12.png" alt="12" style="display: block; margin-left: auto; margin-right: auto; width: 60%; height: 10%" >
+						  <img class="mySlides1" src="image/13.png" alt="12" style="display: block; margin-left: auto; margin-right: auto; width: 60%; height: 10%" >
+						  <img class="mySlides1" src="image/131.png" alt="12" style="display: block; margin-left: auto; margin-right: auto; width: 60%; height: 10%" >
+						  <img class="mySlides1" src="image/21.png" alt="12" style="display: block; margin-left: auto; margin-right: auto; width: 55%; height: 10%" >
+						  <img class="mySlides1" src="image/living wave.jpg" alt="12" style="display: block; margin-left: auto; margin-right: auto; width: 100%; height: 10%" >
+						  <img class="mySlides1" src="image/22.png" alt="12" style="display: block; margin-left: auto; margin-right: auto; width: 55%; height: 10%" >
+						  <img class="mySlides1" src="image/section 2.jpg" alt="12" style="display: block; margin-left: auto; margin-right: auto; width: 100%; height: 10%" >
+						  <img class="mySlides1" src="image/section 1.jpg" alt="12" style="display: block; margin-left: auto; margin-right: auto; width: 110%; height: 10%" >
+
+
+					</div>
+
+
+					  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+					  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+
+					<script>
+					var slideIndex = 1;
+					showDivs(slideIndex);
+
+					function plusDivs(n) {
+					  showDivs(slideIndex += n);
+					}
+
+					function showDivs(n) {
+					  var i;
+					  var x = document.getElementsByClassName("mySlides1");
+					  if (n > x.length) {slideIndex = 1}    
+					  if (n < 1) {slideIndex = x.length}
+					  for (i = 0; i < x.length; i++) {
+					     x[i].style.display = "none";  
+					  }
+					  x[slideIndex-1].style.display = "block";  
+					}
+
+					var myIndex = 0;
+					carousel();
+
+					function carousel() {
+					    var i;
+					    var x = document.getElementsByClassName("mySlides");
+					    for (i = 0; i < x.length; i++) {
+					       x[i].style.display = "none";  
+					    }
+					    myIndex++;
+					    if (myIndex > x.length) {myIndex = 1}    
+					    x[myIndex-1].style.display = "block";  
+					    setTimeout(carousel, 2000); // Change image every 2 seconds
+					}
+					</script>
+
+				</section>
+				
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
